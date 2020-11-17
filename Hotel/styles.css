@@ -5,12 +5,54 @@
 body{
     background-color: hsl(55, 100%, 97%);
     font-family: Trangpencil;
+    font-size: 1.5em;
 }
 .header{
+    padding:10px;
     background-image: url(kert.jpg);
-    float: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width:100%;
-    height: 200px;
+    height: 100px;
     text-align:center;
     color: #f88195;
+}
+.main{
+    padding:5px;
+    height: 70%;
+
+}
+.main img{
+    width:40%;
+    float:left;
+}
+.leiras{
+    padding: 10px;
+    max-width: 800px;
+    float:left;
+}
+.foglalas{
+    float: left;
+    padding:10px;
+    float:left;
+}
+.box1{
+    width:50%;
+    min-width: 400px;
+    float:left;
+}
+.box2{
+    min-width: 200px;
+    float:left;
+    padding-bottom: 110px;
+}
+footer{
+    padding:15px;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left:0;
+    bottom:0;
+    background-color: darkgray;
+    text-align: center;
 }

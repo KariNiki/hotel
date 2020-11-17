@@ -12,11 +12,39 @@
         <h1>Üdv a Hiccs hotelnél!</h1>
     </div>
     <div class="main">
+        
+        <div class="leiras">
+            <img src="szoba.jpg">
+            <h2>Olcsó pihenés, jó szórakozás!</h2>
+            <p>Szállodánk és éttermünk Hiccafüreden található, a múlt századi Draga-villa épületében, a festői szépségű Lombos-tó partján. Családi vállalkozásunk 1990-ben nyitotta meg kapuit, a Szállodát és Éttermet üzemeltető céget Szabó Ferenc alapította 1986-ban családi vállalkozásként. A cég az ingatlant 1987-ben árverésen vásárolta, a rajtalévő romos állapotú Draga-villával.</p>
+            <p>Az ezt követő években felújítások és új épületek építése következtek: többek közt az étterem, a nyitott terasz, a recepciós épület és 8 db szoba építésével valósultak meg a fejlesztések. 2011-ben kapta meg a három csillagos minősítést, s jelenleg Szabó Ferenc mellett Szabó Zoltán és  Vass Gábor vezetik a céget.</p>
+        </div>
         <div class="foglalas">
-                <h2>Foglaljon szobát még ma!</h2>
-                
+                <div class="box1"><h2>Foglaljon szobát még ma!</h2>
+                <label>Fő:</label>
+                <select id="szam" onchange="arfrissi()">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                <label>Éjszaka:</label>
+                <select id="nap" onchange="arfrissi()">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                </div>
+                <div class="box2">
+                <p>Fizetendő összeg: </p>
+                <h3 id="ara"></h3>
+                <button onclick="alerti()">Fizetés</button>
+                </div>
         </div>
     </div>
+    <footer>
+            Elérhetőség: hiccafuredszalloda@furedi.hu
+    </footer>
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
