@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Trangpencil;
+    src: url(Trangpencil-Regular.otf)
+}
+body{
+    background-color: hsl(55, 100%, 97%);
+    font-family: Trangpencil;
+}
+.header{
+    background-image: url(kert.jpg);
+    float: left;
+    width:100%;
+    height: 200px;
+    text-align:center;
+    color: #f88195;
+}
